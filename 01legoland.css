@@ -1,0 +1,396 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gothic A1', sans-serif;
+    /* outline: 1px solid gray; */
+}
+
+body {
+    min-width: 1200px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.nav01 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav01 {
+    height: 100px;
+}
+
+.nav01 a.logo {
+    width: 128.04px;
+    height: 55px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+}
+
+.nav02 a:link,
+.nav02 a:visited {
+    font-size: 30px;
+    margin: 48.5px 92px 48.5px 92px;
+    color: #000000;
+}
+
+.benner {
+    height: 500px;
+    /* background: linear-gradient(85.49deg, #4F22AC -1.29%, #00C2FF 70.26%, #00E5F3 97.54%); */
+    /* 배경그래디언트인데 사용유무 불확실 */
+    text-align: center;
+}
+
+.bn0 {
+    position: absolute;
+    top: 205px;
+    left: 162px;
+}
+
+.bn0 > p {
+    font-size:30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.bnt01, .bnt02 {
+    font-size: 75px;
+    font-weight: 800;
+    color:#fff;
+}
+
+.bnt01 > span {
+    color: #FFC700;   
+}
+
+.bnt02 > span {
+    color: #FF5C28;   
+}
+
+.operatingtime{
+    height: 90px;
+    background: #fff;
+    align-items: center;
+    /* padding: 20px 0px 0px; */
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.opbt {
+    width: 1200px;
+    height: 1px;
+    border: 0;
+    margin: 0px auto;
+    background:#E1E1E1;
+}
+
+
+.Attractions {
+    height: 990px;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tickets {
+    height: 800px;
+    background: #FFCF00;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.guid {
+    height: 150px;    
+}
+
+footer {
+    height: 250px;
+    background: #565656;
+}
+
+
+.at0 {
+    margin-top: 90px;
+}
+
+
+
+h1 {
+    font-size: 30px;
+}
+
+h1 > span {
+    font-family: 'Bowlby One SC';
+    color: #D01012;
+    font-weight: 700;
+    margin-left: 50px;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-family: 'Bowlby One SC';
+    font-weight: 10;
+    font-size: 65px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+h2 > span {
+    font-family: 'Bowlby One SC';
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 36px;
+    align-items: center;
+}
+
+.at0 > p {
+    font-size: 30px;
+    color: #8C8C8C;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Bowlby One SC';
+    font-weight: 10;
+    font-size: 65px;
+    align-items: center;
+    color: #D01012; 
+}
+
+h3 > span {
+    font-family: 'Bowlby One SC';
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 36px;
+    align-items: center;
+}
+
+.at0 > .at02 {
+    color: #000000;    
+}
+
+.tkboxS {
+    display: flex;
+    gap: 30px;
+    padding-top: 80px;
+}
+
+.tkbox img {
+    border-radius: 30px 30px 0px 0px;
+    /* vertical-align: bottom; */
+    display: block;
+}
+
+.tks {
+    width: 380px;
+    height: 132px;
+    background: #fff;
+    border-radius: 0 0 30px 30px;
+    padding: 19px 0 0 29px;
+    /* display: flex; */
+}
+
+.tks0 {
+    position: absolute;
+    width: 322px;
+    height: 93px;    
+}
+
+.tks1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.tks2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: #8C8C8C;    
+}
+
+.more {
+    width: 65px;
+    height: 30px;
+    border: 1px solid #BDBDBD;
+    color:#BDBDBD;
+    font-size: 12px;
+    text-align: center;
+    padding: 7.5px;
+    position: absolute;
+    left: 257px;
+}
+
+.more:hover{
+    border: 1px solid #D01012;
+    color:#D01012;   
+}
+
+.guid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.gd00 a.gdicon01, .gdicon02, .gdicon03, .gdicon04 {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    text-indent: -500px;
+    overflow: hidden;
+}
+
+.gd00 a.gdicon01 {
+    background: url(/pp/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
+}
+
+.gd00 a.gdicon01:hover {
+    background: url(/pp/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
+}
+
+.gd00 a.gdicon02 {
+    background: url(/pp/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
+}
+
+.gd00 a.gdicon02:hover {
+    background: url(/pp/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
+}
+
+
+.gd00 a.gdicon03 {
+    background: url(/pp/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
+}
+
+.gd00 a.gdicon03:hover {
+    background: url(/pp/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
+}
+
+.gd00 a.gdicon04 {
+    background: url(/pp/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
+}
+
+.gd00 a.gdicon04:hover {
+    background: url(/pp/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
+}
+
+
+.gd00 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.gd00 .text {
+    font-size: 30px;
+    line-height: 38px;
+    color: #636363;  
+}
+
+.gd00 .text:hover {
+    color: #000000; 
+}
+
+
+
+footer {
+    padding: 30px 0 0 0px;
+}
+
+.ha {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.igmn2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.igmn > nav {
+    margin-bottom: 25px;
+}
+
+.igmn  > span {
+    font-size: 16px;
+    color:#8C8C8C;
+    margin-bottom: 10px;
+}
+
+.igmn2  > p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8C8C8C;
+    margin-top: 10px;
+}
+
+.igmn  > nav > a {
+    font-size: 25px;
+    line-height: 31px;
+    color:#8C8C8C;
+    margin-right: 76px;
+}
+
+.igmn  > nav > a:hover {
+    color:#FFFFFF;
+}
+
+.bticon {
+    display: flex;
+}
+
+.bticon .sns01 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns02 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns03 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
