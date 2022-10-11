@@ -39,27 +39,104 @@ a:visited {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+    background: url(/pp/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
 }
 
-.nav02 a:link,
-.nav02 a:visited {
-    font-size: 30px;
-    margin: 48.5px 92px 48.5px 92px;
-    color: #000000;
+
+.nav02 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
 }
+
+.nav02 ul.navt li a {
+    color: #000000;
+    font-family: 'Gothic A1';
+}
+
+.nav02 ul.navt {
+    display: inherit;
+    height: 100%;
+}
+
+.nav02 ul.navt > li {
+    font-family: 'Gothic A1';
+    font-size: 24px;
+    margin: 0px 60px 0px 60px;
+    position: relative;
+    color: #000000;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.nav02 ul > li > a {
+    height: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.nav02 ul > li > a:hover {
+    color: #D01012;
+}
+
+.nav02 ul.navt ul.navsub {
+    display: flex;
+    position: absolute;
+    gap: 0 40px;   
+}
+
+.nav02 ul.navt > li > ul.navsub > li {
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    height: 0;
+    font-size: 1rem;
+}
+
+.nav02 ul.navt > li > ul.navsub::before {
+    content: "";
+    position: fixed;
+    z-index: 100;
+    display: block;
+    width: 100%;
+    height: 0px;
+    top: 100px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.nav02 ul.navt > li:hover > ul.navsub > li,
+.nav02 ul.navt > li:hover > ul.navsub::before {
+    height: 60px;
+    transition: all 0.3s;
+}
+
+
+
 
 .benner {
+    width: 100%;
     height: 500px;
     /* background: linear-gradient(85.49deg, #4F22AC -1.29%, #00C2FF 70.26%, #00E5F3 97.54%); */
     /* 배경그래디언트인데 사용유무 불확실 */
     text-align: center;
 }
 
-.bn0 {
-    position: absolute;
-    top: 205px;
-    left: 162px;
+.bnimg a.img01 {
+    background: linear-gradient(85.49deg, #4F22AC -1.29%, #00C2FF 70.26%, #00E5F3 97.54%);    
+}
+
+.bnimg a.img02 {
+    background: #00B836;  
+}
+
+.bnimg a.img03 {
+    background: linear-gradient(85.49deg, #4F22AC -1.29%, #00C2FF 70.26%, #00E5F3 97.54%);    
+}
+
+.bnimg a.img04 {
+    background: #00B836;  
 }
 
 .bn0 > p {
@@ -124,7 +201,10 @@ a:visited {
 
 footer {
     height: 250px;
-    background: #565656;
+    background-color: #565656;
+    background-image: url(/pp/pp/img/기타_일러스트/footer-silhouette_1.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 
@@ -189,10 +269,104 @@ h3 > span {
     color: #000000;    
 }
 
+.atboxS {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.atboxlink {
+    filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.22));
+}
+
+.atbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.atbox  img {
+    display: block;  
+    width: 100%;
+    height: 280px; 
+}
+
+.atbox .attex {
+    width: 100%;
+    height: 200px;
+    padding: 20px 30px 0 30px;
+    background: #FFFFFF;
+}
+
+.attlitle {
+    font-family: 'Bowlby One SC';
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.atsub { 
+    margin-top: 10px;
+    font-family: 'Gothic A1';
+    font-size: 20px;
+    color: #8C8C8C;
+}
+
+
+.atboxS .all {
+    width: 155px;
+    height: 45px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/pp/img/기타_일러스트/viweall.svg) no-repeat 50% 50% / 100%;
+    position: absolute;
+    bottom: 0;
+    left: 68%;
+}
+
+
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 25%;
+    bottom: 21px;
+    z-index: 50;
+    height: 5px;
+    width: 40%;
+}
+
+.swiper-scrollbar-drag {
+    background: #D01012;
+    border-radius: 125px;
+}
+/* .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 0;
+} */
+/* 스와이퍼 페이지 옵션 - 사용불확실 */
+
+
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+
+:root {
+    --swiper-theme-color: #D01012;
+}
+
 .tkboxS {
     display: flex;
     gap: 30px;
     padding-top: 80px;
+    filter: drop-shadow(10px 10px 0px #FFA800);
 }
 
 .tkbox img {
@@ -262,36 +436,36 @@ h3 > span {
 }
 
 .gd00 a.gdicon01 {
-    background: url(/pp/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon01:hover {
-    background: url(/pp/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon02 {
-    background: url(/pp/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon02:hover {
-    background: url(/pp/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
 .gd00 a.gdicon03 {
-    background: url(/pp/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon03:hover {
-    background: url(/pp/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon04 {
-    background: url(/pp/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon04:hover {
-    background: url(/pp/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
@@ -303,8 +477,8 @@ h3 > span {
 }
 
 .gd00 .text {
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 25px;
+    line-height: 30px;
     color: #636363;  
 }
 
@@ -368,7 +542,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -379,7 +553,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -390,7 +564,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
