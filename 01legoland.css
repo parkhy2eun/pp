@@ -39,7 +39,7 @@ a:visited {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
 }
 
 
@@ -202,7 +202,7 @@ a:visited {
 footer {
     height: 250px;
     background-color: #565656;
-    background-image: url(/pp/pp/img/기타_일러스트/footer-silhouette_1.svg);
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -321,7 +321,7 @@ h3 > span {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/pp/img/기타_일러스트/viweall.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/viweall.svg) no-repeat 50% 50% / 100%;
     position: absolute;
     bottom: 0;
     left: 68%;
@@ -436,36 +436,36 @@ h3 > span {
 }
 
 .gd00 a.gdicon01 {
-    background: url(/pp/pp/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon01:hover {
-    background: url(/pp/pp/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon02 {
-    background: url(/pp/pp/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon02:hover {
-    background: url(/pp/pp/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
 .gd00 a.gdicon03 {
-    background: url(/pp/pp/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon03:hover {
-    background: url(/pp/pp/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon04 {
-    background: url(/pp/pp/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon04:hover {
-    background: url(/pp/pp/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
@@ -542,7 +542,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -553,7 +553,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -564,7 +564,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/pp/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
