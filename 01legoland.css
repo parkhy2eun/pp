@@ -11,8 +11,10 @@
     /* outline: 1px solid gray; */
 }
 
+* li{list-style:none}
+
 body {
-    min-width: 1200px;
+    min-width: 100%;
 }
 
 a:link,
@@ -22,16 +24,13 @@ a:visited {
 
 .nav01 {
     width: 1200px;
-    height: 100%;
+    height: 100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav01 {
-    height: 100px;
-}
 
 .nav01 a.logo {
     width: 128.04px;
@@ -42,8 +41,17 @@ a:visited {
     background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
 }
 
+.phonebt {
+    /* width: 100px;
+    height: 100px; */
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    /* background: url(/img/기타_일러스트/hambergar.svg) no-repeat 50% 50% / 100%;  */
+}
+/* 이전메뉴바 */
 
-.nav02 {
+/* .nav02 {
     display: flex;
     align-items: center;
     height: 100%;
@@ -110,9 +118,75 @@ a:visited {
 .nav02 ul.navt > li:hover > ul.navsub::before {
     height: 60px;
     transition: all 0.3s;
+} */
+
+/* 메뉴바 수정한것*/
+
+.nav02 {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
+.navt {
+    width: 800px;
+    display: inherit;
+    justify-content: flex-end;
+    height: 100%;
+}
 
+.nav02 ul.navt li a {
+    color: #000000;
+}
+
+.nav02 ul.navt > li {
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    color: #000000;
+    white-space: nowrap;
+}
+
+  
+.navt > li {
+    width: 25%; /*20*5=100%*/
+    float: right;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+  
+.navt a {
+    color: #565656;
+}
+  
+.navsub > li {
+    line-height: 50px;
+    background-color: #FFF0AF;
+}
+  
+.navsub {
+    height: 0px; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+/* 메뉴바 호버 */
+.navt > li:hover {
+    border-bottom: 3px solid #FFCF00;
+}
+
+.nav02 ul > li > a:hover {
+    color: #D01012;
+}
+  
+.navt > li:hover .navsub {
+    height: 200px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
 
 
 .benner {
@@ -123,8 +197,9 @@ a:visited {
     text-align: center;
 }
 
+
 .bnimg a.img01 {
-    background: linear-gradient(85.49deg, #4F22AC -1.29%, #00C2FF 70.26%, #00E5F3 97.54%);    
+    background: linear-gradient(85.49deg, #4F22AC -1.29%, #00C2FF 70.26%, #00E5F3 97.54%)  
 }
 
 .bnimg a.img02 {
@@ -193,18 +268,6 @@ a:visited {
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-
-.guid {
-    height: 150px;    
-}
-
-footer {
-    height: 250px;
-    background-color: #565656;
-    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
-    background-repeat: no-repeat;
-    background-position: right bottom;
 }
 
 
@@ -276,6 +339,43 @@ h3 > span {
     position: relative;
 }
 
+.swiper-button-prev{
+    width: 80px;
+    height: 80px;
+    background: url(/pp/img/banner_ing/화살표_left.svg) no-repeat 50% 50% / 100%;
+    text-indent: -500px;
+    overflow: hidden;
+    left: 50px;
+}
+
+.swiper-button-next {
+    width: 80px;
+    height: 80px;
+    background: url(/pp/img/banner_ing/화살표_Right.svg) no-repeat 50% 50% / 100%;
+    text-indent: -500px;
+    overflow: hidden;
+    right: 50px;    
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    width: 180px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    bottom: 20px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 43%;
+    padding-top: 10px;
+}
+
 .atboxlink {
     filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.22));
 }
@@ -327,6 +427,10 @@ h3 > span {
     left: 68%;
 }
 
+.atboxS .all:hover {
+    background: url(/pp/img/기타_일러스트/viweall_hover.svg) no-repeat 50% 50% / 100%;
+}
+
 
 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
     left: 25%;
@@ -350,13 +454,13 @@ h3 > span {
 
 
 
-.swiper-pagination {
+/* .swiper-pagination {
     position: absolute;
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0,0,0);
     z-index: 10;
-}
+} 어떤건지 모르겠어서 일단 주석처리 해둡니다*/
 
 :root {
     --swiper-theme-color: #D01012;
@@ -422,9 +526,16 @@ h3 > span {
 }
 
 .guid {
+    height: 150px;  
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
+}
+
+.n02, .n03, .n04 {
+    border: 1px solid #E1E1E1;
+    border-width: 0px 0px 0px 1px;
+    gap: 15px;
 }
 
 .gd00 a.gdicon01, .gdicon02, .gdicon03, .gdicon04 {
@@ -433,6 +544,7 @@ h3 > span {
     display: inline-block;
     text-indent: -500px;
     overflow: hidden;
+    margin-left: 20px;
 }
 
 .gd00 a.gdicon01 {
@@ -474,11 +586,13 @@ h3 > span {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    justify-content: center;
 }
 
 .gd00 .text {
     font-size: 25px;
     line-height: 30px;
+    text-align: center;
     color: #636363;  
 }
 
@@ -490,6 +604,11 @@ h3 > span {
 
 footer {
     padding: 30px 0 0 0px;
+    height: 250px;
+    background-color: #565656;
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .ha {
