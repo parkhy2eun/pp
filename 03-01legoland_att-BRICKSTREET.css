@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Gothic A1', sans-serif;
-    outline: 1px solid gray;
+    /* outline: 1px solid gray; */
 }
 
 * li{list-style:none}
@@ -41,7 +41,7 @@ a:visited {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
 }
 
 /* 메뉴바 */
@@ -224,7 +224,7 @@ h1 {
 }
 
 .BSboxinner .BSboximg {
-    background-image: url(/img/fun_img/attraction/01_BRICKSTREET/532a5901-edit-copy_1.jpg);
+    background-image: url(/pp/img/fun_img/attraction/01_BRICKSTREET/532a5901-edit-copy_1.jpg);
     background-repeat: no-repeat;
     background-size: 100%  130%;
     text-indent: -500px;
@@ -274,7 +274,7 @@ h1 {
 .locaicon {
     width: 25px;
     height: 32.51px;
-    background: url(/img/fun_img/attraction/01_BRICKSTREET/locationicon.png) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/fun_img/attraction/01_BRICKSTREET/locationicon.png) no-repeat 50% 50% / 100%;
     text-indent: -500px;
     overflow: hidden; 
 }
@@ -282,7 +282,7 @@ h1 {
 .numicon {
     width: 30px;
     height: 30px;
-    background: url(/img/fun_img/attraction/01_BRICKSTREET/numbericon.png) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/fun_img/attraction/01_BRICKSTREET/numbericon.png) no-repeat 50% 50% / 100%;
     text-indent: -500px;
     overflow: hidden; 
 }
@@ -291,7 +291,7 @@ h1 {
 .BSboximg2 {
     width: 500px;
     height: 400px;
-    background-image: url(/img/fun_img/attraction/01_BRICKSTREET/01_BS.png);
+    background-image: url(/pp/img/fun_img/attraction/01_BRICKSTREET/01_BS.png);
     background-repeat: no-repeat;
     text-indent: -500px;
     overflow: hidden; 
@@ -304,7 +304,7 @@ h1 {
 footer {
     height: 250px;
     background-color: #565656;
-    background-image: url(/img/기타_일러스트/footer-silhouette_1.svg);
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 30px 0 0 0px;
@@ -360,7 +360,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -371,7 +371,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -382,7 +382,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
