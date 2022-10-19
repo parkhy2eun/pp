@@ -3,21 +3,24 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <title>레고랜드사이트</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="01legoland.css">
+    <link rel="stylesheet" media="all and (max-width: 1024px)" href="01legoland_tap.css">
+    <link rel="stylesheet" media="all and (max-width: 360px)" href="01legoland_phone.css">
 </head>
 
 <body>
     <header>
         <nav class="nav01">
-            <a href="#" class="logo">레고랜드로고</a>
+            <a href="/html/01legoland.html" class="logo">레고랜드로고</a>
             <div class="nav02">
                 <ul class="navt">
                     <li>
                         <a href="#">이용권</a>
                         <ul class="navsub">
-                            <li><a href="#">이용권구매</a></li>
+                            <li><a href="/html/02legoland_1ticket.html">이용권구매</a></li>
                             <li><a href="#">패스트트랙</a></li>
                             <li><a href="#">방문예약</a></li>
                             <li><a href="#">환불접수</a></li>
@@ -27,7 +30,7 @@
                     <li>
                         <a href="#">즐길거리</a>
                         <ul class="navsub">
-                            <li><a href="#">라이드&어트랙션</a></li>
+                            <li><a href="/html/03-00legoland_attraction.html">라이드&어트랙션</a></li>
                             <li><a href="#">다이닝</a></li>
                             <li><a href="#">쇼핑</a></li>
                             <li><a href="#">엔터테인먼트</a></li>
@@ -37,15 +40,16 @@
                     <li>
                         <a href="#">이용안내</a>
                         <ul class="navsub">
-                            <li><a href="#">운영시간</a></li>
+                            <li><a href="/html/04legoland_operatingtime.html">운영시간</a></li>
                             <li><a href="#">주차&오시는길</a></li>
                             <li><a href="#">PARKMAP</a></li>
                             <li><a href="#">편의시설안내</a></li>
                         </ul>
                     </li>
                 </ul>
-
+                
             </div>
+
         </nav>
     </header>
 
@@ -140,7 +144,7 @@
             <!-- <div class="swiper-button-prev"></div> -->
             <!-- <div class="swiper-pagination"></div> -->
                 <div class="swiper-scrollbar"></div>
-                <a href="#" class="all">모두보기</a>
+                <a href="/html/03-00legoland_attraction.html" class="all">모두보기</a>
             
 
         </div>
@@ -153,12 +157,12 @@
         </div>
         <div class="tkboxS">
             <div class="tkbox">
-                <a href="#"><img src="/pp/img/기타_일러스트/tk01.png" alt="1일이용권이미지"></a>
+                <a href="/html/02legoland_1ticket.html"><img src="/pp/img/기타_일러스트/tk01.png" alt="1일이용권이미지"></a>
                 <div class="tks">
                     <div class="tks0">
                         <div class="tks1">1일 이용권(날짜지정)</div>
                         <div class="tks2">*방문일자 지정 필수</div>
-                        <a href="#" class="more">
+                        <a href="/html/02legoland_1ticket.html" class="more">
                             더보기▶
                         </a>
                     </div>
@@ -166,7 +170,7 @@
             </div>
 
             <div class="tkbox">
-                <a href="#"><img src="/pp/img/기타_일러스트/tk02.png" alt="1일이용권이미지"></a>
+                <a href="#"><img src="/pp/img/기타_일러스트/tk02.png" alt="패스트트랙이미지"></a>
                 <div class="tks">
                     <div class="tks0">
                         <div class="tks1">패스트 트랙</div>
@@ -179,7 +183,7 @@
             </div>
 
             <div class="tkbox">
-                <a href="#"><img src="/pp/img/기타_일러스트/tk03.png" alt="1일이용권이미지"></a>
+                <a href="#"><img src="/pp/img/기타_일러스트/tk03.png" alt="방문예약하기이미지"></a>
                 <div class="tks">
                     <div class="tks0">
                         <div class="tks1">방문 예약 하기</div>
@@ -196,24 +200,24 @@
     </section>
 
     <div class="guid">
-        <div class="gd00">
+        <div class="gd00 n01">
             <a href="#" class="gdicon01">지도아이콘</a>
             <a href="#" class="text">지도</a>
         </div>
 
-        <div class="gd00">
+        <div class="gd00 n02">
             <a href="#" class="gdicon02">주차아이콘</a>
-            <a href="#" class="text">주차&<br>오시는길</a>
+            <a href="#" class="text">주차& 오시는길</a>
         </div>
 
-        <div class="gd00">
+        <div class="gd00 n03">
             <a href="#" class="gdicon03">편의시설아이콘</a>
-            <a href="#" class="text">편의시설<br>안내</a>
+            <a href="#" class="text">편의시설 안내</a>
         </div>
 
-        <div class="gd00">
+        <div class="gd00 n04">
             <a href="#" class="gdicon04">뉴스레터아이콘</a>
-            <a href="#" class="text">뉴스레터<br>구독신청</a>
+            <a href="#" class="text">뉴스레터 구독신청</a>
         </div>
     </div>
 
@@ -253,7 +257,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-    <script src="/pp/01legoland.js"></script>
+    <script src="01legoland.js"></script>
 
 </body>
 
