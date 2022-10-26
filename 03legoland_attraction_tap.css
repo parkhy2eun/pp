@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* 레고랜드 태블릿 */
+/* * {
+    outline: 1px solid gray;
+} */
+
+
+body {
+    min-width: 100%;
+}
+
+.nav01 {
+    width: 850px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navt {
+    width: 650px;
+}
+
+.nav02 ul.navt > li {
+    font-size: 22px;
+}
+
+.navsub {
+    font-size: 17px;
+}
+
+.navsub > li {
+    line-height: 45px;
+    background-color: #FFF0AF;
+}
+
+/* 메뉴바 호버 */
+
+.navt > li:hover .navsub {
+    height: 180px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+
+
+.mianinner {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/레고_일러스트/어트랙션\ 상단이미지.png)  no-repeat 50% 50% / cover;
+}
+
+.maintext {
+    width: 850px;
+}
+
+.bigatboxs {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding-top: 71px;
+}
+
+.secondinner {
+    height: 1370px;
+}
+
+.at01 {
+    width: 270px;
+    height: 376.22px;
+    border: 1px solid #8C8C8C;
+}
+
+.at01 img {
+    height:147.22px;
+}
+
+.at01txt {
+    height:300px;
+}
+
+.at01txt {
+    padding: 17px 28px 25px 28px;
+    height:230px;
+}
+
+.at01txt h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 7px;
+    letter-spacing: 0.03em;
+}
+
+.at01txt p {
+    font-size: 12.8px;
+    line-height: 16px;
+}
+
+.attxtsub0 {
+    padding-left: 147px;
+}
+
+
+
+
+
+
+/* 푸터 */
+
+.guid {
+    width: 850px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.gd00 a.gdicon01, .gdicon02, .gdicon03, .gdicon04 {
+    width: 70px;
+    height: 70px;
+}
+
+.gd00 {
+    gap: 10px;
+}
+
+.gd00 .text {
+    font-size: 24px;
+    line-height: 28px;
+    width: 95px;
+    white-space: normal;
+    text-align: center;
+    color: #636363;  
+}
+
+.ha {
+    width: 850px;
+}
