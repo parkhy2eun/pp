@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Gothic A1', sans-serif;
-    outline: 1px solid gray;
+    /* outline: 1px solid gray; */
 }
 
 * li{list-style:none}
@@ -41,7 +41,7 @@ a:visited {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat no-repeat 50% 50% / cover; 
 }
 
 /* 메뉴바 */
@@ -108,80 +108,75 @@ a:visited {
 }
 
 
-/* 이전메뉴바 */
-/* .nav02 {
-    display: flex;
-    align-items: center;
+
+/* 모바일 메뉴 */
+.header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.menu_btn{
+    text-align: right;
+    padding: 10px;
+}
+
+.sidebar_menu{
+    display: none;
+    width: 50%;
     height: 100%;
-    list-style: none;
-}
-
-.nav02 ul.navt li a {
-    color: #000000;
-    font-family: 'Gothic A1';
-}
-
-.nav02 ul.navt {
-    display: inherit;
-    height: 100%;
-}
-
-.nav02 ul.navt > li {
-    font-family: 'Gothic A1';
-    font-size: 24px;
-    margin: 0px 60px 0px 60px;
-    position: relative;
-    color: #000000;
-    white-space: nowrap;
-    list-style: none;
-}
-
-.nav02 ul > li > a {
-    height: 100%;
-    display: flex;
-    align-items: center;    
-}
-
-.nav02 ul > li > a:hover {
-    color: #D01012;
-}
-
-.nav02 ul.navt ul.navsub {
-    display: flex;
+    background: #FFF0AF;
     position: absolute;
-    gap: 0 40px;   
+    top:0;
+    right: -50%;
+    z-index: 100000;
+    
 }
-
-.nav02 ul.navt > li > ul.navsub > li {
-    position: relative;
-    z-index: 100;
-    overflow: hidden;
-    height: 0;
-    font-size: 1rem;
+.close_btn{
+    width: 25px;
+    height: 25px;
+    margin:10px;
 }
-
-.nav02 ul.navt > li > ul.navsub::before {
-    content: "";
-    position: fixed;
-    z-index: 100;
+.close_btn > a{
     display: block;
     width: 100%;
-    height: 0px;
-    top: 100px;
-    left: 0;
-    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 20px;   
 }
 
-.nav02 ul.navt > li:hover > ul.navsub > li,
-.nav02 ul.navt > li:hover > ul.navsub::before {
-    height: 60px;
-    transition: all 0.3s;
-} */
+
+/* 모바일메뉴 커스텀 */
+
+.menu_wrap > li > a {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu_wrap li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navsub2 li a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
 
 .mianinner {
     width: 100%;
     height: 350px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/이용권/DAY1/kakaotalk_20220617_185139218.jpg) no-repeat 100% / 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/이용권/DAY1/kakaotalk_20220617_185139218.jpg) no-repeat 100% / 100%;
 }
 
 
@@ -220,7 +215,6 @@ h1 {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding: 0px;
     gap: 70px;
 }
@@ -439,7 +433,7 @@ h1 {
 footer {
     height: 250px;
     background-color: #565656;
-    background-image: url(/img/기타_일러스트/footer-silhouette_1.svg);
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -498,7 +492,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -509,7 +503,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -520,7 +514,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
