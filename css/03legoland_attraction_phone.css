@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* 레고랜드 모바일 */
+
+/* * {
+    outline: 1px solid gray;
+} */
+
+body {
+    min-width: 100%;
+}
+
+
+.nav01 {
+    width: 320px;
+    height: 80px;
+}
+
+.nav01 a.logo {
+    width: 100px;
+    height: 55px;
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 90%; 
+}
+
+
+
+/* 메뉴바 */
+.navt {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+
+}
+
+
+
+
+.mianinner {
+    height: 180px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/레고_일러스트/어트랙션\ 상단이미지.png) no-repeat 50% / 250%;
+}
+
+.maintext {
+    width: 320px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 33px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.maintext p {
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.secondinner {
+    width: 100%;
+    height: 2900px;
+}
+
+.bigatboxs {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 0px;
+}
+
+.atboxs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* 푸터 */
+
+footer {
+    padding: 30px 0 0 0px;
+    height: 320px;
+    background-color: #565656;
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.ha {
+    width: 300px;
+}
+
+.igmn > nav {
+    margin-bottom: 5px;
+}
+
+.igmn  > nav > a {
+    font-size: 12px;
+    line-height: 21px;
+    margin-right: 10px;
+}
+
+.igmn  > span {
+    font-size: 10px;
+    margin-bottom: 10px;
+    line-height:10%;
+}
+
+.igmn2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.igmn2  > p {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 0px;
+}
+
+.bticon .sns01 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns02 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns03 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
