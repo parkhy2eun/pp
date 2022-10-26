@@ -1,36 +1,33 @@
 @charset "utf-8";
 /* 레고랜드 모바일 */
 
-* {
+/* * {
     outline: 1px solid gray;
-}
+} */
 
 body {
     min-width: 100%;
 }
 
 .nav01 {
-    width: 300px;
+    width: 320px;
     height: 80px;
 }
 
 .nav01 a.logo {
     width: 100px;
     height: 55px;
-    background: url(/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 90%; 
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 90%; 
 }
-
-.nav02 {
-    width: 50px;
-    height: 100px;
-    display: block;
-    text-indent: -5000px;
-    overflow: hidden;
-    background: url(/img/기타_일러스트/hambergar.svg) no-repeat 50% 50% / 80%; 
-}
-
 
 /* 메뉴바 */
+
+.navt {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+
+}
 
 
 
@@ -88,45 +85,20 @@ h2 > span {
 }
 
 
-
-.bnimg > .img01 > img[src="/img/banner_ing/배너full02.svg"] {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(/img/banner_ing/배너phone01.svg) no-repeat;
-    width: 100%; /* Width of new image */
-    height: 100%; /* Height of new image */
-    padding-left: 100%; /* Equal to width of new image */
+.bnimg > .img01 > img[src="/pp/img/banner_ing/배너full02.svg"] {
+    background: url(/pp/img/banner_ing/배너phone01.svg) no-repeat 100% / cover;
 }
 
-.bnimg > .img02 > img[src="/img/banner_ing/배너full03.svg"] {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(/img/banner_ing/배너phone02.svg) no-repeat;
-    width: 100%; /* Width of new image */
-    height: 100%; /* Height of new image */
-    padding-left: 100%; /* Equal to width of new image */
+.bnimg > .img02 > img[src="/pp/img/banner_ing/배너full03.svg"] {
+    background: url(/pp/img/banner_ing/배너phone02.svg) no-repeat 100% / cover;
 }
 
-.bnimg > .img03 > img[src="/img/banner_ing/배너full02.svg"] {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(/img/banner_ing/배너phone01.svg) no-repeat;
-    width: 100%; /* Width of new image */
-    height: 100%; /* Height of new image */
-    padding-left: 100%; /* Equal to width of new image */
+.bnimg > .img03 > img[src="/pp/img/banner_ing/배너full02.svg"] {
+    background: url(/pp/img/banner_ing/배너phone01.svg) no-repeat 100% / cover;
 }
 
 .bnimg > .img04 > img[src="/img/banner_ing/배너full03.svg"] {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(/img/banner_ing/배너phone02.svg) no-repeat;
-    width: 100%; /* Width of new image */
-    height: 100%; /* Height of new image */
-    padding-left: 100%; /* Equal to width of new image */
+    background: url(/pp/img/banner_ing/배너phone02.svg) no-repeat 100% / cover;
 }
 
 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
@@ -139,7 +111,14 @@ h2 > span {
 
 .atboxS .all {
     width: 65%;
-    background: url(/img/기타_일러스트/viweall.svg) no-repeat 40% 40% / 50%;
+    background: url(/pp/img/기타_일러스트/viweall.svg) no-repeat 40% 40% / 40%;
+    bottom: 0;
+    left: 45%;
+}
+
+.atboxS .all:hover {
+    background: url(/pp/img/기타_일러스트/viweall_hover.svg) no-repeat 40% 40% / 40%;
+    width: 65%;
     bottom: 0;
     left: 45%;
 }
@@ -237,7 +216,7 @@ footer {
     padding: 30px 0 0 0px;
     height: 320px;
     background-color: #565656;
-    background-image: url(/img/기타_일러스트/footer-silhouette_1.svg);
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: right bottom;
