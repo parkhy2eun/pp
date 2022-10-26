@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* 레고랜드 태블릿 */
+/* * {
+    outline: 1px solid gray;
+} */
+
+body {
+    min-width: 100%;
+}
+
+.nav01 {
+    width: 850px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navt {
+    width: 650px;
+}
+
+.nav02 ul.navt > li {
+    font-size: 22px;
+}
+
+.navsub {
+    font-size: 17px;
+}
+
+.navsub > li {
+    line-height: 45px;
+    background-color: #FFF0AF;
+}
+
+/* 메뉴바 호버 */
+
+.navt > li:hover .navsub {
+    height: 180px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+
+/* 상단 */
+.mianinner {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/fun_img/attraction/01_BRICKSTREET/screen-shot-2022-06-28-at-1-51-35-pm.png) no-repeat no-repeat 50% 50% / cover;
+}
+
+.maintext {
+    width: 850px;
+}
+
+
+/* 기구 */
+.BSbox {
+    width: 850px;
+}
+
+.BSboxtxt {
+    width: 600px;
+    height: 380px;
+    padding: 40px;
+}
+
+.BSboxtxt h2 {
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
+
+.BSboxtxt p {
+    font-size: 19px;
+}
+
+.location {
+    padding-top: 25px;
+}
+
+.location > p {
+    font-size: 24px;
+}
+
+.BSboximg2 {
+    width: 350px;
+    height: 380px;
+    background: url(/pp/img/fun_img/attraction/01_BRICKSTREET/01_BS.png) 50% 50% / 130%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* 푸터 */
+
+.guid {
+    width: 850px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.gd00 a.gdicon01, .gdicon02, .gdicon03, .gdicon04 {
+    width: 70px;
+    height: 70px;
+}
+
+.gd00 {
+    gap: 10px;
+}
+
+.gd00 .text {
+    font-size: 24px;
+    line-height: 28px;
+    width: 95px;
+    white-space: normal;
+    text-align: center;
+    color: #636363;  
+}
+
+.ha {
+    width: 850px;
+}
