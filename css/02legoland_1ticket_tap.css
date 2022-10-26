@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* 레고랜드 태블릿 */
+/* * {
+    outline: 1px solid gray;
+} */
+
+body {
+    min-width: 100%;
+}
+
+.nav01 {
+    width: 850px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navt {
+    width: 650px;
+}
+
+.nav02 ul.navt > li {
+    font-size: 22px;
+}
+
+.navsub {
+    font-size: 17px;
+}
+
+.navsub > li {
+    line-height: 45px;
+    background-color: #FFF0AF;
+}
+
+/* 메뉴바 호버 */
+
+.navt > li:hover .navsub {
+    height: 180px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+
+
+
+.mianinner {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/이용권/DAY1/kakaotalk_20220617_185139218.jpg) no-repeat no-repeat 50% 50% / cover;
+}
+
+.maintext {
+    width: 850px;
+}
+
+.secondinner {
+    height: 800px;
+}
+
+.secondbox {
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondbox h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.secondinner  p {
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+    padding: 21px 0;
+}
+
+.buyticket {
+    height: 1100px;
+}
+
+
+.Btkboxs {
+    width: 502px;
+    padding-top: 5px;
+    flex-direction: column;
+}
+
+
+
+/* 푸터 */
+
+.guid {
+    width: 850px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.gd00 a.gdicon01, .gdicon02, .gdicon03, .gdicon04 {
+    width: 70px;
+    height: 70px;
+}
+
+.gd00 {
+    gap: 10px;
+}
+
+.gd00 .text {
+    font-size: 24px;
+    line-height: 28px;
+    width: 95px;
+    white-space: normal;
+    text-align: center;
+    color: #636363;  
+}
+
+.ha {
+    width: 850px;
+}
