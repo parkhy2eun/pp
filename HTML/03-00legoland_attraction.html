@@ -3,50 +3,105 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <title>레고랜드 라이드&어트랙션</title>
-    <link rel="stylesheet" type="text/css" href="/CSS/03legoland_attraction.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/pp/js/motion.js"></script>
+    <link rel="stylesheet" type="text/css" href="/pp/css/03legoland_attraction.css">
+    <link rel="stylesheet" media="all and (max-width: 1024px)" href="/pp/css/03legoland_attraction_tap.css">
+    <link rel="stylesheet" media="all and (max-width: 640px)" href="/pp/css/03legoland_attraction_phone.css">
 </head>
 
 <body>
     <header>
         <nav class="nav01">
-            <a href="/html/01legoland.html" class="logo">레고랜드로고</a>
-            <div class="nav02">
-                <ul class="navt">
-                    <li>
-                        <a href="/html/02legoland_1ticket.html">이용권</a>
-                        <ul class="navsub">
-                            <li><a href="/html/02legoland_1ticket.html">이용권구매</a></li>
-                            <li><a href="#">패스트트랙</a></li>
-                            <li><a href="#">방문예약</a></li>
-                            <li><a href="#">환불접수</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="#">즐길거리</a>
-                        <ul class="navsub">
-                            <li><a href="/html/03-00legoland_attraction.html">라이드&어트랙션</a></li>
-                            <li><a href="#">다이닝</a></li>
-                            <li><a href="#">쇼핑</a></li>
-                            <li><a href="#">엔터테인먼트</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="#">이용안내</a>
-                        <ul class="navsub">
-                            <li><a href="#">운영시간</a></li>
-                            <li><a href="#">주차&오시는길</a></li>
-                            <li><a href="#">PARKMAP</a></li>
-                            <li><a href="#">편의시설안내</a></li>
-                        </ul>
-                    </li>
+          <a href="01legoland.html" class="logo">레고랜드로고</a>
+          <div class="nav02">
+            <ul class="navt">
+              <li>
+                <a href="#">이용권</a>
+                <ul class="navsub">
+                  <li><a href="02legoland_1ticket.html">이용권구매</a></li>
+                  <li><a href="#">패스트트랙</a></li>
+                  <li><a href="#">방문예약</a></li>
+                  <li><a href="#">환불접수</a></li>
                 </ul>
-
+              </li>
+    
+              <li>
+                <a href="#">즐길거리</a>
+                <ul class="navsub">
+                  <li><a href="03-00legoland_attraction.html">라이드&어트랙션</a></li>
+                  <li><a href="#">다이닝</a></li>
+                  <li><a href="#">쇼핑</a></li>
+                  <li><a href="#">엔터테인먼트</a></li>
+                </ul>
+              </li>
+    
+              <li>
+                <a href="#">이용안내</a>
+                <ul class="navsub">
+                  <li><a href="04legoland_operatingtime.html">운영시간</a></li>
+                  <li><a href="#">주차&오시는길</a></li>
+                  <li><a href="#">PARKMAP</a></li>
+                  <li><a href="#">편의시설안내</a></li>
+                </ul>
+              </li>
+    
+            </ul>
+            <div>
+              <div class="header">
+                <div class="menu_btn"><a href="#">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgNmgtMjR2LTRoMjR2NHptMCA0aC0yNHY0aDI0di00em0wIDhoLTI0djRoMjR2LTR6Ii8+PC9zdmc+"
+                      alt="이미지">
+                  </a>
+                </div>
+              </div>
+              <div class="menu_bg"></div>
+              <div class="sidebar_menu">
+                <div class="close_btn"><a href="#">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuOTU0IDIxLjAzbC05LjE4NC05LjA5NSA5LjA5Mi05LjE3NC0yLjgzMi0yLjgwNy05LjA5IDkuMTc5LTkuMTc2LTkuMDg4LTIuODEgMi44MSA5LjE4NiA5LjEwNS05LjA5NSA5LjE4NCAyLjgxIDIuODEgOS4xMTItOS4xOTIgOS4xOCA5LjF6Ii8+PC9zdmc+"
+                      alt="이미지">
+                  </a>
+                </div>
+                <ul class="navt2 menu_wrap">
+                  <li>
+                    <a href="#">이용권</a>
+                    <ul class="navsub2">
+                      <li><a href="02legoland_1ticket.html">이용권구매</a></li>
+                      <li><a href="#">패스트트랙</a></li>
+                      <li><a href="#">방문예약</a></li>
+                      <li><a href="#">환불접수</a></li>
+                    </ul>
+                  </li>
+    
+                  <li>
+                    <a href="#">즐길거리</a>
+                    <ul class="navsub2">
+                      <li><a href="03-00legoland_attraction.html">라이드&어트랙션</a></li>
+                      <li><a href="#">다이닝</a></li>
+                      <li><a href="#">쇼핑</a></li>
+                      <li><a href="#">엔터테인먼트</a></li>
+                    </ul>
+                  </li>
+    
+                  <li>
+                    <a href="#">이용안내</a>
+                    <ul class="navsub2">
+                      <li><a href="04legoland_operatingtime.html">운영시간</a></li>
+                      <li><a href="#">주차&오시는길</a></li>
+                      <li><a href="#">PARKMAP</a></li>
+                      <li><a href="#">편의시설안내</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </nav>
-    </header>
+      </header>
 
     <section class="mianinner">
         <div class="maintext">
@@ -61,7 +116,7 @@
         <div class="bigatboxs">
             <div class="atboxs">
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/01_BRICKSTREET/brickimg.png" alt="브릭스트리트기구"></a>
+                    <a href="03-01legoland_at_BRICKSTREET.html"><img src="/pp/img/fun_img/attraction/01_BRICKSTREET/brickimg.png" alt="브릭스트리트기구"></a>
                     <div class="at01txt">
                         <h2>BRICK STREET</h2>
                         <div class="attxtsub">
@@ -69,7 +124,7 @@
                             <p>전 세계 유일하게 호텔을 가로 질러 입장하는 LEGOLAND® Korea Resort!</p>
                             <p>신나게 놀 준비가 되셨나요?</p>
                             <div class="attxtsub0">
-                                <a href="/html/03-01legoland_at_BRICKSTREET.html">
+                                <a href="03-01legoland_at_BRICKSTREET.html">
                                     <div class="more">더보기▶</div>
                                 </a>
                             </div>
@@ -78,7 +133,7 @@
                 </div>
 
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/screen-shot-2022-07-27-at-10-20-27-am.png"
+                    <a href="#"><img src="/pp/img/fun_img/attraction/screen-shot-2022-07-27-at-10-20-27-am.png"
                             alt="브릭토피아기구"></a>
                     <div class="at01txt">
                         <h2>BRICKTOPIA</h2>
@@ -96,7 +151,7 @@
                 </div>
 
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/screen-shot-2022-07-27-at-10-22-00-am.png"
+                    <a href="#"><img src="/pp/img/fun_img/attraction/screen-shot-2022-07-27-at-10-22-00-am.png"
                             alt="레고캐슬기구"></a>
                     <div class="at01txt">
                         <h2>LEGO® CASTLE</h2>
@@ -117,7 +172,7 @@
 
             <div class="atboxs">
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/screen-shot-2022-07-26-at-4-14-03-pm.png"
+                    <a href="#"><img src="/pp/img/fun_img/attraction/screen-shot-2022-07-26-at-4-14-03-pm.png"
                             alt="레고시티기구"></a>
                     <div class="at01txt">
                         <h2>LEGO® CITY</h2>
@@ -135,7 +190,7 @@
                 </div>
 
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/0-ninjago-the-ride-arch-1800x1200.jpg" alt="닌자고"></a>
+                    <a href="#"><img src="/pp/img/fun_img/attraction/0-ninjago-the-ride-arch-1800x1200.jpg" alt="닌자고"></a>
                     <div class="at01txt">
                         <h2>LEGO® NINJAGO® WORLD</h2>
                         <div class="attxtsub">
@@ -151,7 +206,7 @@
                 </div>
 
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/screen-shot-2021-11-29-at-4-38-56-pm.png"
+                    <a href="#"><img src="/pp/img/fun_img/attraction/screen-shot-2021-11-29-at-4-38-56-pm.png"
                             alt="해적이미지"></a>
                     <div class="at01txt">
                         <h2>LEGO® CASTLE</h2>
@@ -172,7 +227,7 @@
 
             <div class="atboxs">
                 <div class="at01">
-                    <a href="#"><img src="/img/fun_img/attraction/screen-shot-2022-07-27-at-10-26-31-am.png" alt="미니랜드"></a>
+                    <a href="#"><img src="/pp/img/fun_img/attraction/screen-shot-2022-07-27-at-10-26-31-am.png" alt="미니랜드"></a>
                     <div class="at01txt">
                         <h2>MINILAND</h2>
                         <div class="attxtsub">
