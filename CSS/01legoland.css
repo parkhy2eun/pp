@@ -38,7 +38,7 @@ a:visited {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
 }
 
 .phonebt {
@@ -187,6 +187,67 @@ a:visited {
     height: 200px; /*서브메뉴 li한개의 높이 50*5*/
     transition-duration: 1s;
 }
+
+/* 모바일 메뉴 */
+.header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.menu_btn{
+    text-align: right;
+    padding: 10px;
+}
+
+.sidebar_menu{
+    display: none;
+    width: 50%;
+    height: 100%;
+    background: #FFF0AF;
+    position: absolute;
+    top:0;
+    right: -50%;
+    z-index: 100000;
+    
+}
+.close_btn{
+    width: 25px;
+    height: 25px;
+    margin:10px;
+}
+.close_btn > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 20px;   
+}
+
+
+/* 모바일메뉴 커스텀 */
+
+.menu_wrap > li > a {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu_wrap li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navsub2 li a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
 
 
 .benner {
@@ -342,7 +403,7 @@ h3 > span {
 .swiper-button-prev{
     width: 80px;
     height: 80px;
-    background: url(/img/banner_ing/화살표_left.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/banner_ing/화살표_left.svg) no-repeat 50% 50% / 100%;
     text-indent: -500px;
     overflow: hidden;
     left: 50px;
@@ -351,7 +412,7 @@ h3 > span {
 .swiper-button-next {
     width: 80px;
     height: 80px;
-    background: url(/img/banner_ing/화살표_Right.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/banner_ing/화살표_Right.svg) no-repeat 50% 50% / 100%;
     text-indent: -500px;
     overflow: hidden;
     right: 50px;    
@@ -421,14 +482,14 @@ h3 > span {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/기타_일러스트/viweall.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/viweall.svg) no-repeat 50% 50% / 100%;
     position: absolute;
     bottom: 0;
     left: 68%;
 }
 
 .atboxS .all:hover {
-    background: url(/img/기타_일러스트/viweall_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/viweall_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
@@ -548,36 +609,36 @@ h3 > span {
 }
 
 .gd00 a.gdicon01 {
-    background: url(/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/map.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon01:hover {
-    background: url(/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/map_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon02 {
-    background: url(/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/parking.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon02:hover {
-    background: url(/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/parking_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
 .gd00 a.gdicon03 {
-    background: url(/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/accessible-icon.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon03:hover {
-    background: url(/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/accessible-icon_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon04 {
-    background: url(/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/newspaper.svg) no-repeat 50% 50% / 100%;
 }
 
 .gd00 a.gdicon04:hover {
-    background: url(/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/기타_일러스트/newspaper_hover.svg) no-repeat 50% 50% / 100%;
 }
 
 
@@ -606,7 +667,7 @@ footer {
     padding: 30px 0 0 0px;
     height: 250px;
     background-color: #565656;
-    background-image: url(/img/기타_일러스트/footer-silhouette_1.svg);
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -661,7 +722,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -672,7 +733,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -683,7 +744,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
