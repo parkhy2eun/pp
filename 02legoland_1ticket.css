@@ -1,0 +1,520 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gothic A1', sans-serif;
+    /* outline: 1px solid gray; */
+}
+
+* li{list-style:none}
+
+body {
+    min-width: 1200px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.nav01 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav01 {
+    height: 100px;
+}
+
+.nav01 a.logo {
+    width: 128.04px;
+    height: 55px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat no-repeat 50% 50% / cover; 
+}
+
+/* 메뉴바 */
+
+.nav02 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navt {
+    width: 800px;
+    display: inherit;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.nav02 ul.navt li a {
+    color: #000000;
+}
+
+.nav02 ul.navt > li {
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.navt > li {
+    width: 25%; /*20*5=100%*/
+    float: right;
+    text-align: center;
+    line-height: 100px;
+}
+  
+.navt a {
+    color: #565656;
+}
+  
+.navsub > li {
+    line-height: 50px;
+    background-color: #FFF0AF;
+}
+  
+.navsub {
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+    font-size: 18px;
+}
+
+/* 메뉴바 호버 */
+.navt > li:hover {
+    border-bottom: 3px solid #FFCF00;
+}
+
+.nav02 ul > li > a:hover {
+    color: #D01012;
+}
+  
+.navt > li:hover .navsub {
+    height: 200px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+
+
+
+/* 모바일 메뉴 */
+.header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.menu_btn{
+    text-align: right;
+    padding: 10px;
+}
+
+.sidebar_menu{
+    display: none;
+    width: 50%;
+    height: 100%;
+    background: #FFF0AF;
+    position: absolute;
+    top:0;
+    right: -50%;
+    z-index: 100000;
+    
+}
+.close_btn{
+    width: 25px;
+    height: 25px;
+    margin:10px;
+}
+.close_btn > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 20px;   
+}
+
+
+/* 모바일메뉴 커스텀 */
+
+.menu_wrap > li > a {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu_wrap li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navsub2 li a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.mianinner {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/이용권/DAY1/kakaotalk_20220617_185139218.jpg) no-repeat 100% / 100%;
+}
+
+
+.maintext {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 68px;
+    line-height: 82px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.maintext p {
+    font-weight: 250;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.secondinner {
+    height: 650px;
+    background: #F2F2F2; 
+}
+
+.secondbox {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 70px;
+}
+
+.secondbox img {
+    width: 300px;
+    height: 225px;
+}
+
+.secondbox h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    margin-bottom: 40px;
+}
+
+
+.secondinner  p {
+    color: #8C8C8C;
+    width: 736px;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 80px;
+    background: #D01012;
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 21px 0;
+}
+
+.card:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #EF1E20;
+}
+
+.buyticket {
+    height: 600px;
+}
+
+.Btkboxs {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 65px;
+    display: flex;
+    gap: 30px;
+}
+
+.onedayticket {
+    width: 500px;
+    height: 470px;
+    border: 1px solid #8C8C8C;  
+}
+
+.onedayticket img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.onedtkboxs {
+    width: 500px;
+    height: 270px;
+    padding: 30px;
+    
+}
+
+.onemain {
+    height: 58px;
+    margin-bottom: 10px;
+}
+
+.onemain h3 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+.onemain div {
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8C8C8C;
+}
+
+.onedsub {
+    margin-bottom: 10px;
+}
+
+.onedsub > p {
+    font-weight: 350;
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 5px;
+    color: #8C8C8C;   
+}
+
+.onedpriceadjn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.onedprice .smallp {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 3px;
+    color: #006DB7;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #006DB7;  
+}
+
+.tkbuy {
+    width: 440px;
+    height: 50px;
+    background: #31A1E0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    padding: 11px 0;
+}
+
+.tkbuy:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #31A1E0;
+}
+
+.optionbox {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.opboxs {
+    display: flex;
+    border: 1px solid #8C8C8C;
+}
+
+.opboxs img {
+    display: block;
+}
+.opboxs .txt {
+    width: 250px;
+    height: 220px;
+    background: #FFFFFF;
+    padding: 21px 15px 21px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.txt h4 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.txt p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8C8C8C;
+}
+
+.more {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #BDBDBD;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding: 7.5px 0;
+    color: #BDBDBD;
+    margin: 80px 0 0 150px;
+}
+
+.more:hover {
+    border: 1px solid #D01012;
+    color: #D01012;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 250px;
+    background-color: #565656;
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+footer {
+    padding: 30px 0 0 0px;
+}
+
+.ha {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.igmn2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.igmn > nav {
+    margin-bottom: 25px;
+}
+
+.igmn  > span {
+    font-size: 16px;
+    color:#8C8C8C;
+    margin-bottom: 10px;
+}
+
+.igmn2  > p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8C8C8C;
+    margin-top: 10px;
+}
+
+.igmn  > nav > a {
+    font-size: 25px;
+    line-height: 31px;
+    color:#8C8C8C;
+    margin-right: 76px;
+}
+
+.igmn  > nav > a:hover {
+    color:#FFFFFF;
+}
+
+.bticon {
+    display: flex;
+}
+
+.bticon .sns01 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns02 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns03 {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
