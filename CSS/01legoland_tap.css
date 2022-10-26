@@ -49,41 +49,41 @@ body {
 
 
 
-.bnimg > .img01 > img[src="/img/banner_ing/배너full02.svg"] {
+.bnimg > .img01 > img[src="/pp/img/banner_ing/배너full02.svg"] {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(/img/banner_ing/배너tap.svg) no-repeat;
+    background: url(/pp/img/banner_ing/배너tap.svg) no-repeat 100% / cover;
     width: 100%; /* Width of new image */
     height: 100%; /* Height of new image */
     padding-left: 100%; /* Equal to width of new image */
 }
 
-.bnimg > .img02 > img[src="/img/banner_ing/배너full03.svg"] {
+.bnimg > .img02 > img[src="/pp/img/banner_ing/배너full03.svg"] {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(/img/banner_ing/배너tap02.svg) no-repeat;
+    background: url(/pp/img/banner_ing/배너tap02.svg) no-repeat 100% / cover;
     width: 100%; /* Width of new image */
     height: 100%; /* Height of new image */
     padding-left: 100%; /* Equal to width of new image */
 }
 
-.bnimg > .img03 > img[src="/img/banner_ing/배너full02.svg"] {
+.bnimg > .img03 > img[src="/pp/img/banner_ing/배너full02.svg"] {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(/img/banner_ing/배너tap.svg) no-repeat;
+    background: url(/pp/img/banner_ing/배너tap.svg) no-repeat 100% / cover;
     width: 100%; /* Width of new image */
     height: 100%; /* Height of new image */
     padding-left: 100%; /* Equal to width of new image */
 }
 
-.bnimg > .img04 > img[src="/img/banner_ing/배너full03.svg"] {
+.bnimg > .img04 > img[src="/pp/img/banner_ing/배너full03.svg"] {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(/img/banner_ing/배너tap02.svg) no-repeat;
+    background: url(/pp/img/banner_ing/배너tap02.svg) no-repeat 100% / cover;
     width: 100%; /* Width of new image */
     height: 100%; /* Height of new image */
     padding-left: 100%; /* Equal to width of new image */
@@ -191,7 +191,7 @@ h1 > span {
 
 
 
-
+/* 푸터 */
 
 .guid {
     width: 850px;
@@ -216,9 +216,6 @@ h1 > span {
     text-align: center;
     color: #636363;  
 }
-
-
-
 
 .ha {
     width: 850px;
