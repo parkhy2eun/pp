@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Gothic A1', sans-serif;
-    outline: 1px solid gray;
+    /* outline: 1px solid gray; */
 }
 
 * li{list-style:none}
@@ -38,7 +38,7 @@ a:visited {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 100%; 
 }
 
 /* 메뉴바 */
@@ -109,12 +109,76 @@ a:visited {
     transition-duration: 1s;
 }
 
+/* 모바일 메뉴 */
+.header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.menu_btn{
+    text-align: right;
+    padding: 10px;
+}
+
+.sidebar_menu{
+    display: none;
+    width: 50%;
+    height: 100%;
+    background: #FFF0AF;
+    position: absolute;
+    top:0;
+    right: -50%;
+    z-index: 100000;
+    
+}
+.close_btn{
+    width: 25px;
+    height: 25px;
+    margin:10px;
+}
+.close_btn > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 20px;   
+}
+
+
+/* 모바일메뉴 커스텀 */
+
+.menu_wrap > li > a {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu_wrap li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navsub2 li a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
 
 
 .mianinner {
     width: 100%;
     height: 350px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/screen-shot-2021-12-09-at-2-03-32-pm.png) no-repeat 100% / 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/운영시간/screen-shot-2021-12-09-at-2-03-32-pm.png) no-repeat 100% / 100%;
 }
 
 
@@ -205,7 +269,25 @@ tbody > tr > td > p {
     color: #006DB7;
 }
 
+.swiper-button-prev{
+    width: 80px;
+    height: 80px;
+    background: url(/pp/img/운영시간/운영시간화살표_left.svg)  no-repeat 50% 50% / 100% #F2F2F2;
+    text-indent: -500px;
+    overflow: hidden;
+    left: 20%;
+    top: 100px;
+}
 
+.swiper-button-next {
+    width: 80px;
+    height: 80px;
+    background: url(/pp/img/운영시간/운영시간화살표_Right.svg) no-repeat 50% 50% / 100% #F2F2F2;
+    text-indent: -500px;
+    overflow: hidden;
+    right: 20%;
+    top: 100px;   
+}
 
 
 
@@ -218,7 +300,7 @@ footer {
     padding: 30px 0 0 0px;
     height: 250px;
     background-color: #565656;
-    background-image: url(/img/기타_일러스트/footer-silhouette_1.svg);
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -273,7 +355,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/instagram.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -284,7 +366,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/facebook.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -295,7 +377,7 @@ footer {
     display: block;
     text-indent: -500px;
     overflow: hidden;
-    background: url(/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
+    background: url(/pp/img/bottom/naverblog.svg) no-repeat 50% 50% / 100%;
     margin-left: 10px;
     margin-top: 20px;
 }
