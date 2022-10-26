@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* 레고랜드 모바일 */
+
+/* * {
+    outline: 1px solid gray;
+} */
+
+body {
+    min-width: 100%;
+}
+
+.nav01 {
+    width: 320px;
+    height: 80px;
+}
+
+.nav01 a.logo {
+    width: 100px;
+    height: 55px;
+    background: url(/pp/img/top/llkr_8mm-flag_alternate_wht-yelo-sun.png) no-repeat 50% 50% / 90%; 
+}
+
+
+
+/* 메뉴바 */
+.navt {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+
+}
+
+
+.mianinner {
+    height: 180px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/pp/img/이용권/DAY1/kakaotalk_20220617_185139218.jpg) no-repeat no-repeat 50% 50% / cover;
+}
+
+.maintext {
+    width: 320px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 33px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.maintext p {
+    font-size: 12px;
+    line-height: 28px;
+}
+
+/* 여기까지가 상단 */
+
+
+.secondinner {
+    height: 600px;
+}
+
+.secondbox {
+    width: 320px;
+    height: 100%;
+    gap: 50px;
+}
+
+.secondbox img {
+    width: 250px;
+    height: 165px;
+}
+
+.secondbox h2 {
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.secondinner  p {
+    width: 290px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 260px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 0;
+}
+
+
+.buyticket {
+    height: 1700px;
+}
+
+.Btkboxs {
+    width: 320px;
+}
+
+.onedayticket {
+    width: 100%;
+    height: 490px;
+}
+
+.onedayticket img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.onedtkboxs {
+    width: 100%;
+    height: 290px;
+    padding: 30px;   
+}
+
+.opboxs {
+    flex-direction: column;
+}
+
+.opboxs img {
+    width: 100%;
+}
+
+.opboxs .txt {
+    width: 100%;    
+}
+
+.tkbuy {
+    width: 258px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    padding: 11px 0;
+}
+
+.more {
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding: 7.5px 0;
+    color: #BDBDBD;
+    margin: 80px 0 0 220px;
+}
+
+
+
+
+
+/* 푸터 */
+
+footer {
+    padding: 30px 0 0 0px;
+    height: 320px;
+    background-color: #565656;
+    background-image: url(/pp/img/기타_일러스트/footer-silhouette_1.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.ha {
+    width: 300px;
+}
+
+.igmn > nav {
+    margin-bottom: 5px;
+}
+
+.igmn  > nav > a {
+    font-size: 12px;
+    line-height: 21px;
+    margin-right: 10px;
+}
+
+.igmn  > span {
+    font-size: 10px;
+    margin-bottom: 10px;
+    line-height:10%;
+}
+
+.igmn2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.igmn2  > p {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 0px;
+}
+
+.bticon .sns01 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns02 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.bticon .sns03 {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
